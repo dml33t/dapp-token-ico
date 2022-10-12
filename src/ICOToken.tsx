@@ -176,7 +176,7 @@ const ICOToken = ({ crowdsaleAddress }: Props) => {
 
         <div className="text-center shadow-2xl card">
           <div className="card-body">
-            <h2 className="card-title">ITMan Token</h2>
+            <h2 className="card-title">Gorilla Token</h2>
             {Number(closingTime) > 0 && (
               <div className="alert">
                 <div className="flex-1">
@@ -216,7 +216,7 @@ const ICOToken = ({ crowdsaleAddress }: Props) => {
 
             <input
               type="range"
-              max="1000"
+              max="100000"
               value={amount}
               onChange={(evt) => setAmount(evt.target.valueAsNumber)}
               className="range range-accent"
@@ -237,7 +237,7 @@ const ICOToken = ({ crowdsaleAddress }: Props) => {
         <div className="items-center justify-center max-w-2xl px-4 py-4 mx-auto text-xl border-orange-500 lg:flex md:flex">
           <div className="p-2 font-semibold">
             <a
-              href={`https://ropsten.etherscan.io/address/${tokenAddress}`}
+              href={`https://etherscan.io/address/0xD178724F70082a89e9b5537Aa7a3466baCB2c737`}
               target="_blank"
               className="px-4 py-1 ml-2 text-white bg-orange-500 rounded-full shadow focus:outline-none"
               rel="noreferrer"

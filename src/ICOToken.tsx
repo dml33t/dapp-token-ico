@@ -164,7 +164,7 @@ const ICOToken = ({ crowdsaleAddress }: Props) => {
                   d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"
                 />
               </svg>
-              <label>Please connect to the Ropsten testnet for testing.</label>
+              <label>Gorilla Crowdsale is Live. Please connect to the Ethereum Mainnet via Metamask!</label>
             </div>
           </div>
           <div className="divider"></div>

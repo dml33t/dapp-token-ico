@@ -166,6 +166,26 @@ const ICOToken = ({ crowdsaleAddress }: Props) => {
               </svg>
               <label>Gorilla Crowdsale is Live. Please connect to the Ethereum Mainnet via Metamask!</label>
             </div>
+                        <div className="flex-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#ff5722"
+                className="w-6 h-6 mx-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"
+                />
+              </svg>
+              <label>Tokenomics: 32M $GOR for Crowdsale ; After the Crowdsale rest of the tokens will be burned (From 32M) .</label>
+              <label>44M Tokens will be locked on Uniswap V3 with 50% of the Crowdsale ETH.</label>
+               <label>10M Tokens will be locked on Gnosis-Safe for Team Wallet (Future Development)</label>
+                          <label>10M Tokens will be locked on Unicrypt and 4M tokens will be used for Airdrop</label>
+            </div>
           </div>
           <div className="divider"></div>
         </>
